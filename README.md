@@ -27,6 +27,56 @@
 * #### trip_duration - duration of the trip in seconds
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+# 💾 **Project Files Description**
+
+This Project includes 2 executable files, 1 python file and 1 directory as follows:
+
+Executable Files:
+* Taxi_Trip_Time_Prediction_.ipynb - Includes all functions required for classification operations.
+Source Directories:
+* Train and test directory - Includes all training and testing data
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# 📖 **Random Forest**
+
+Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It can be used for both Classification and Regression problems in ML. It is based on the concept of ensemble learning, which is a process of combining multiple classifiers to solve a complex problem and to improve the performance of the model.
+
+As the name suggests, "Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset." Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
+
+The greater number of trees in the forest leads to higher accuracy and prevents the problem of overfitting.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# 📋 **Execution Instruction**
+This project aims to predict New York city taxi trip times.
+
+The dataset consists of 1458644 rows and 11 columns, containing features such as trip longitude and latitude values, day, month, year of the trip, etc.
+
+The project is executed in 4 main steps:
+
+* Data cleaning and feature engineering
+* Exploratory data analysis
+* Model building and evaluation
+* Model tuning.
+
+Features such as speed and distance are engineered, to create useful variables. Using latitude and longitude values the area of New York was focused on.
+
+Exploratory data analysis (EDA) was performed, both univariate and bivariate analysis were done to gain better understanding about the data. Some understanding from the data was received such as, single passenger trips are the highest, March is the busiest month, Saturday is the busiest day, trips mostly range to 2000 seconds, highest average speed during the day is at 5 AM, etc.
+
+Models experimented with:
+
+* PCA
+* Linear Regression
+* Decision Tree
+* Random Forest
+Random Forest perfomed best with PCA performed data
+
+Root Mean Squared Error (RMSE) is chosen as the metric. The metric showed an RMSE of 221 seconds in predictions of trip time.
+
+Achieved R2 score of 91% which menas 91 % correctly trip duration can be explained using data.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # 📋 Summary
 This project aims to predict New York city taxi trip times.
