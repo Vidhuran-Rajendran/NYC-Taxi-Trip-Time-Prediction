@@ -78,37 +78,6 @@ Achieved R2 score of 91% which menas 91 % correctly trip duration can be explain
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-# 📋 Summary
-This project aims to predict New York city taxi trip times.
-
-The dataset consists of 1458644 rows and 11 columns, containing features such as trip longitude and latitude values, day, month, year of the trip, etc.
-
-The project is executed in 4 main steps:
-
-* #### Data cleaning and feature engineering
-* #### Exploratory data analysis
-* #### Model building and evaluation
-* #### Model tuning.
-
-Features such as speed and distance are engineered, to create useful variables. Using latitude and longitude values the area of New York was focused on.
-
-Exploratory data analysis (EDA) was performed, both univariate and bivariate analysis were done to gain better understanding about the data. Some understanding from the data was received such as, single passenger trips are the highest, March is the busiest month, Saturday is the busiest day, trips mostly range to 2000 seconds, highest average speed during the day is at 5 AM, etc.
-
-Models experimented with:
-
-* #### Decision Tree
-* #### Random Forest
-* #### Gradient Boost
-* #### XGBoost
-
-Random Forest perfomed best after hyperparameter tuning.
-
-Root Mean Squared Error (RMSE) is chosen as the metric. The metric showed an RMSE of 221 seconds in predictions of trip time.
-
-Improvement of 68% or reduction in deviation of time prediction by 8 minutes compared to the prediction deviations from the mean.
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 <h2 id="credits"> :scroll: Credits</h2>
 
 < Vidhuran Rajendran > | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
